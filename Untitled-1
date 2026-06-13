@@ -1,0 +1,51 @@
+# Función para calcular el promedio
+
+def calcular_promedio():
+
+
+
+    # Ingreso de datos
+
+    nota1 = float(input("Ingrese la primera nota: "))
+
+    nota2 = float(input("Ingrese la segunda nota: "))
+
+
+
+    # Validacion
+
+    if nota1 < 1 or nota1 > 7 or nota2 < 1 or nota2 > 7:
+
+        print("Error: las notas deben estar entre 1 y 7")
+
+
+
+    else:
+
+        # Calculo del promedio
+
+        promedio = (nota1 + nota2) / 2
+
+
+
+        # Resultado
+
+        print("El promedio es:", promedio)
+
+
+
+
+
+# Llamada a la funcion
+
+calcular_promedio()
+
+if promedio >= 4:
+
+    print("Aprobado")
+
+else:
+
+    print("Reprobado")
+
+     
